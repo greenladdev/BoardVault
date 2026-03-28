@@ -1,0 +1,21 @@
+node_modules/
+dist/
+
+# SQLite database
+*.db
+*.db-shm
+*.db-wal
+
+# Environment / secrets
+.env
+.env.local
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Logs
+npm-debug.log*
