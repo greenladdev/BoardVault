@@ -5,4 +5,4 @@ buildCommand = "npm install && npm install --prefix backend && npm install --pre
 [deploy]
 startCommand = "node backend/src/index.js"
 healthcheckPath = "/api/health"
-restartPolicyType = "on-failure"
+restartPolicyType = "ON_FAILURE"
